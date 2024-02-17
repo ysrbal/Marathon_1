@@ -12,10 +12,10 @@ public class Runner {
         System.out.println(Arrays.toString(dizi.listele())); // Dizinin elemanlarý kullanýcýya gösterildi.
         System.out.println("-----------------------");
         dizi.add(2, 2); // Dizinin 2. indeksine 2 rakamý eklendi.
-        System.out.println(Arrays.toString(dizi.listele()));
+        System.out.println(Arrays.toString(dizi.listele())); // Dizinin elemanlarý kullanýcýya gösterildi.
         System.out.println("-----------------------");
         dizi.remove(0); // Dizinin 0. indeksindeki eleman silindi.
-        System.out.println(Arrays.toString(dizi.listele()));
+        System.out.println(Arrays.toString(dizi.listele())); // Dizinin elemanlarý kullanýcýya gösterildi.
 
     }
 }

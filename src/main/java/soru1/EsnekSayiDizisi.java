@@ -4,6 +4,12 @@ public class EsnekSayiDizisi {
     private int[] numbers;
     private int count;
 
+    /**
+     * <p>Dizi Ýçerisine Eleman Ekleme</p>
+     * Dizi içerisine bir elemanýn eklenmesini saðlar.
+     *
+     * @param number --> Eklenecek sayýyý giriniz.
+     */
     public void add(int number) {
         count++;
         if (count == 1) {
@@ -19,6 +25,13 @@ public class EsnekSayiDizisi {
         }
     }
 
+    /**
+     * <p>Dizi Ýçerisine Ýstenilen Indexe Eleman Ekleme</p>
+     * Dizi içerisine verilen index numarasýna bir eleman eklenmesini saðlar.
+     *
+     * @param index  --> Elemanýn ekleneceði indexi giriniz.
+     * @param number --> Eklenecek elemaný giriniz.
+     */
     public void add(int index, int number) {
         count++;
         int tempCount = 0;
@@ -36,6 +49,12 @@ public class EsnekSayiDizisi {
         numbers = temp;
     }
 
+    /**
+     * <p>Dizilien Eleman Silme</p>
+     * Dizi içerisinde verilen indexteki elemaný siler.
+     *
+     * @param index --> Silinmesini istediðiniz elemanýn indexini giriniz.
+     */
     public void remove(int index) {
         int tempCount = 0;
         int[] temp = new int[numbers.length - 1];
@@ -50,6 +69,12 @@ public class EsnekSayiDizisi {
         count--;
     }
 
+    /**
+     * <p>Diziyi Listeleme</p>
+     * Dizinin görüntülenmesini saðlar.
+     *
+     * @return Dizinin adresini döner.
+     */
     public int[] listele() {
         return numbers;
     }
