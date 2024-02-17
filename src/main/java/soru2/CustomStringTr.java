@@ -27,7 +27,7 @@ public class CustomStringTr {
         return ifade.contains(icerik);
     }
 
-    public String altKume(int index, int index2) {
+    public String altMetin(int index, int index2) {
         return ifade.substring(index, index2);
     }
 
